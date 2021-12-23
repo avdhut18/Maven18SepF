@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-23T08:53:57 IST" name="Suite" finished-at="2021-12-23T08:54:07 IST" duration-ms="10218">
+    <groups>
+    </groups>
+    <test started-at="2021-12-23T08:53:57 IST" name="Test" finished-at="2021-12-23T08:54:07 IST" duration-ms="10218">
+      <class name="testcases.LogoutTest">
+        <test-method is-config="true" signature="allPgeObj()[pri:0, instance:testcases.LogoutTest@6a370f4]" started-at="2021-12-23T08:54:01 IST" name="allPgeObj" finished-at="2021-12-23T08:54:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allPgeObj -->
+        <test-method signature="verifyLogout()[pri:0, instance:testcases.LogoutTest@6a370f4]" started-at="2021-12-23T08:54:01 IST" name="verifyLogout" finished-at="2021-12-23T08:54:07 IST" duration-ms="5928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogout -->
+      </class> <!-- testcases.LogoutTest -->
+      <class name="testcases.LoginTest">
+        <test-method is-config="true" signature="initializeWebEnv()[pri:0, instance:testcases.LoginTest@503d687a]" started-at="2021-12-23T08:53:51 IST" name="initializeWebEnv" finished-at="2021-12-23T08:53:57 IST" duration-ms="5162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebEnv -->
+        <test-method is-config="true" signature="allPgeObj()[pri:0, instance:testcases.LoginTest@503d687a]" started-at="2021-12-23T08:53:57 IST" name="allPgeObj" finished-at="2021-12-23T08:53:57 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allPgeObj -->
+        <test-method signature="verifyLoginWithCorrectCred()[pri:0, instance:testcases.LoginTest@503d687a]" started-at="2021-12-23T08:53:57 IST" name="verifyLoginWithCorrectCred" finished-at="2021-12-23T08:54:01 IST" duration-ms="4248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithCorrectCred -->
+        <test-method is-config="true" signature="tearDownEnv()[pri:0, instance:testcases.LoginTest@503d687a]" started-at="2021-12-23T08:54:07 IST" name="tearDownEnv" finished-at="2021-12-23T08:54:07 IST" duration-ms="683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownEnv -->
+      </class> <!-- testcases.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
