@@ -8,10 +8,10 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BaseClass {
 	protected WebDriverWait waiting;
-	public static WebDriver driver;
 	protected ChromeOptions options;
 	protected LoginPage login;
 	protected LogoutPage logout;
+	public static WebDriver driver;
 	
 	public void waitFor(int seconds) {
 		waiting = new WebDriverWait(driver,50);
